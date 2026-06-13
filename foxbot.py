@@ -9,6 +9,9 @@ from telegram.ext import (
 import os
 
 TOKEN = os.getenv("8798623244:AAFkmJZg2vkeJ7VBBmWQL9NFTOl5O6MHzd0")
+
+print("BOT_TOKEN existe:", TOKEN is not None)
+print("BOT_TOKEN:", TOKEN[:10] + "..." if TOKEN else "VACÍO")
 reglas = []
 advertencias = {}
 
