@@ -6,7 +6,9 @@ from telegram.ext import (
     ContextTypes
 )
 
-BOT_TOKEN "8798623244:AAG8inlaydw0gMFeIs0ZvKNiYLCgSJhC7t8"
+import os
+
+TOKEN = os.getenv("8798623244:AAG8inlaydw0gMFeIs0ZvKNiYLCgSJhC7t8")
 
 reglas = []
 advertencias = {}
